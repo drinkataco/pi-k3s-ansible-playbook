@@ -54,7 +54,8 @@ It is worth looking at the variable files themselves to see all possible config 
 
 ### Deploying
 
-Install module requirements with `ansible-galaxy collection install -r requirements.yaml`
+1. Install ansible module requirements with `ansible-galaxy collection install -r requirements.yaml`
+1. Install python dependencies argcomplete / pyyaml
 
 You can then deploy your cluster using the following command
 
